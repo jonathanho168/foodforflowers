@@ -23,7 +23,7 @@ const UploadPage: React.FC = () => {
         form.append('file', selectedFile as File);
         const config = {
             params: {
-                apiKey: "ccddc1dc3a3245599375c2d4ba014556", //Shouldn't be exposed ¯\_(ツ)_/¯
+                apiKey: "e80e011898bd44fd8a5c1a8a224a1a71", //Shouldn't be exposed ¯\_(ツ)_/¯
             },
         };
         // Post the form data to the API endpoint
@@ -47,12 +47,8 @@ const UploadPage: React.FC = () => {
         if (spoonacularRes) {
             return (
                 <div>
-                    <h2>Details:</h2>
+                    <h2>Upload done!</h2>
                     <p><b>Food Category: {spoonacularRes["category"]["name"]}</b></p>
-                    <p>Calories: {spoonacularRes["nutrition"]["calories"]["value"]} cal</p>
-                    <p>Fat: {spoonacularRes["nutrition"]["fat"]["value"]} g</p>
-                    <p>Protein: {spoonacularRes["nutrition"]["protein"]["value"]} g</p>
-                    <p>Carbs: {spoonacularRes["nutrition"]["carbs"]["value"]} g</p>
                 </div>
             );
         } else {
