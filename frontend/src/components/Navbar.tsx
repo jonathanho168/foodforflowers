@@ -1,46 +1,63 @@
-import { ReactNode } from 'react';
-import {
-    Box,
-    Flex,
-    HStack,
-    Link,
-    useColorModeValue,
-    Icon
-} from '@chakra-ui/react';
+import { Button, Flex, Icon, useColorModeValue } from "@chakra-ui/react";
+import { NavLink } from "react-router-dom";
+import * as Routes from "../constants/Routes";
 import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
+interface NavbarItemProps {
+    to: string;
+    label: string;
+    icon: JSX.Element;
+}
 
+function NavbarItem(props: NavbarItemProps): JSX.Element {
+    const { to, label, icon } = props;
 
-const NavLink = ({ children }: { children: ReactNode }) => (
-    <Link
-        px={2}
-        py={1}
-        rounded={'md'}
-        _hover={{
-            textDecoration: 'none',
-            bg: useColorModeValue('gray.200', 'gray.700'),
-        }}
-        href={'#'}>
-        {children}
-    </Link>
-);
-
-export default function Navbar() {
     return (
-        <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
-            <Flex h={20} justifyContent={'space-between'}>
-                <Flex alignItems={'center'}>
-                    <HStack
-                        as={'nav'}
-                        spacing={4}
-                        display={'flex'}>
-                        <NavLink key={'Garden'}><Flex flexDirection={'column'} alignItems={'center'}>< Icon as={LocalFloristIcon} />Garden</Flex></NavLink>
-                        <NavLink key={'Upload a Meal'}><Flex flexDirection={'column'} alignItems={'center'}><Icon as={AddCircleIcon} /> Upload a Meal </Flex></NavLink>
-                        <NavLink key={'Profile'}><Flex flexDirection={'column'} alignItems={'center'}>< Icon as={AccountCircleIcon} /> Profile </Flex></NavLink>
-                    </HStack>
-                </Flex>
-            </Flex>
-        </Box>
+        <NavLink to={to} key={label}>
+            <Button
+                variant="ghost"
+                flexDirection="column"
+                alignItems="center"
+                justifyContent="center"
+                py={10}
+                _focus={{ boxShadow: "none" }}
+            >
+                {icon}
+                {label}
+            </Button>
+        </NavLink>
+    );
+}
+
+export default function Navbar(): JSX.Element {
+    return (
+        <Flex
+            bg={useColorModeValue("white", "gray.800")}
+            px={4}
+            py={3}
+            position="fixed"
+            bottom="0"
+            width="full"
+            borderTopWidth={1}
+            borderTopColor={useColorModeValue("gray.200", "gray.700")}
+            justifyContent="space-between"
+        >
+            <NavbarItem
+                to={Routes.HOME_PAGE}
+                label="Garden"
+                icon={<Icon as={LocalFloristIcon} />}
+            />
+            <NavbarItem
+                to={Routes.UPLOAD_PAGE}
+                label="Add"
+                icon={<Icon as={AddCircleIcon} />}
+            />
+            <NavbarItem
+                to={Routes.PROFILE_PAGE}
+                label="Profile"
+                icon={<Icon as={AccountCircleIcon} />}
+            />
+        </Flex>
     );
 }
