@@ -3,15 +3,18 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import GroupIcon from '@mui/icons-material/Group';
 import RewardModal from "../components/RewardModal";
+import RecommendationModal from "../components/RecommendationModal";
 
 const HomePage: React.FC = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const { isOpen: isOpenRecommendation, onOpen: onOpenRecommendation, onClose: onCloseRecommendation } = useDisclosure();
     return (
         <>
             <Flex justifyContent={'space-between'} zIndex="1">
-                <Button onClick={onOpen}> Check Update </Button>
+                <Button onClick={onOpenRecommendation}> Check Update </Button>
                 <IconButton icon={<Icon as={GroupIcon} />} aria-label={""}></IconButton>
             </Flex>
+            <RecommendationModal isOpen={isOpenRecommendation} onOpenReward={onOpen} onClose={onCloseRecommendation} />
             <RewardModal isOpen={isOpen} onClose={onClose} />
             <Flex className="container" flexDirection={"column"} h="100vh" zIndex="2">
             <div className="glitch-embed-wrap" style={{ height: "calc(100% - 60px)", width: "100%" }}>
