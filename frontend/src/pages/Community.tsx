@@ -18,7 +18,7 @@ const Community: React.FC = () => {
     return (
         <>
             <Button onClick={onOpen}>Open Modal</Button>
-            {/* <RewardModal isOpen={isOpen} onClose={onClose} /> */}
+            <RewardModal isOpen={isOpen} onClose={onClose} />
             <TableContainer>
                 <Table variant='simple'>
                     <TableCaption>Imperial to metric conversion factors</TableCaption>

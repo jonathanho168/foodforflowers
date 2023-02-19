@@ -1,17 +1,40 @@
-import { Button, Flex, Link, Modal, useDisclosure } from "@chakra-ui/react";
-import { FFFGREEN } from "../constants/Colors";
+import {
+    Button,
+    Flex,
+    Link,
+    Modal,
+    ModalOverlay,
+    ModalContent,
+    ModalHeader,
+    ModalFooter,
+    ModalBody,
+    ModalCloseButton,
+} from '@chakra-ui/react'
+import { useState } from 'react';
 import * as Routes from "../constants/Routes";
 
-const RewardModal = (isOpen: boolean, onClose: () => void) => {
+type RewardModalProps = {
+    isOpen: boolean;
+    onClose: () => void;
+}
+
+const RewardModal = ({ isOpen, onClose }: RewardModalProps): React.ReactElement => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     return (
-        <Modal isOpen={isOpen} onClose={onClose}>
-            <Flex>
-                <h2>You've earned a new seed!</h2>
-                <p>Congratulations on doing well this month! You were consistent in working toward your goals and being proactive about eating consistently and healthily.</p>
-                {/* <Button color={FFFGREEN} variant='link' to={Routes.HOME_PAGE}>Plant seed in garden</Button> */}
-                <Button as='a' href={Routes.HOME_PAGE}></Button>
-                <Link href={Routes.HOME_PAGE} color={FFFGREEN}>Keep seed in inventory</Link>
-            </Flex>
+        <Modal isCentered={true} isOpen={isOpen} onClose={onClose} size={screenWidth < 400 ? 'xs' : 'sm'}>
+            <ModalOverlay />
+            <ModalContent>
+                <ModalHeader>You've earned a new seed!</ModalHeader>
+                <ModalCloseButton />
+                <ModalBody>
+                    Congratulations on doing well this month! You were consistent in working toward your goals and being proactive about eating consistently and healthily.
+                </ModalBody>
+
+                <ModalFooter as={Flex} flexDirection='column' justifyContent='center' paddingBottom="6">
+                    <Button onClick={onClose} colorScheme='green' mb={2}>Plant seed in garden</Button>
+                    <Button onClick={onClose} variant='link' colorScheme='green'>Keep seed in inventory</Button>
+                </ModalFooter>
+            </ModalContent>
         </Modal>
     );
 }
