@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const HomePage: React.FC = () => {
     return (
         <Flex className="container" flexDirection={"column"} h="100vh">
-            <div className="glitch-embed-wrap" style={{ height: "844px", width: "390px" }}>
+            <div className="glitch-embed-wrap" style={{ height: "calc(100% - 60px)", width: "390px" }}>
                 <iframe
                     src="https://glitch.com/embed/#!/embed/meteor-rune-lyre?path=.env&previewSize=100"
                     title="meteor-rune-lyre on Glitch"
