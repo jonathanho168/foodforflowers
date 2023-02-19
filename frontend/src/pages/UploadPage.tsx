@@ -1,4 +1,4 @@
-import { Flex, Heading, Tabs, TabList, Tab, Center, VStack, Text, Button } from "@chakra-ui/react";
+import { Flex, Heading, Tabs, TabList, Tab, Center, VStack, Text, Button, Image } from "@chakra-ui/react";
 import React from "react";
 import Navbar from "../components/Navbar";
 
@@ -75,6 +75,7 @@ const UploadPage: React.FC = () => {
                         Upload!
                     </button>
                 </div>
+                {selectedFile != undefined ? <Image width={100} src={URL.createObjectURL(selectedFile as File)} /> : null}
                 {fileData()}
             </VStack>
             <nav className="navbar">
