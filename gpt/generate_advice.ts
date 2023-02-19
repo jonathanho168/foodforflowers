@@ -49,9 +49,9 @@ new Promise((resolve, reject) => {
     openai.createCompletion({
         model: "text-davinci-003",
         prompt: JSON.stringify(result, null, 2) +
-            "Q: Generate a weekly recap for a user as a health professional would. This should be a kind, gentle, and specific recommendation for healthy eating habits based on the eating record below. Talk about how they did in comparison to their caloric goal of 1500 calories a day, without speaking about calories explicitly since it can harm the user. Tie your recommendations with a related area where the user succeeded.\n" +
+            "Q: Generate a weekly recap for a user as a health professional would. This should be a kind, gentle, and specific recommendation for healthy eating habits based on the eating record below. Talk about how they did in comparison to their caloric goal of 1500 calories a day, without speaking about calories explicitly since it can harm the user. Tie your recommendations with a related area where the user succeeded. However, gently point out if there's an issue on dietary health.\n" +
             "A: ",
-        max_tokens: 100,
+        max_tokens: 200,
     }).then((completion) => {
         console.log(completion.data.choices[0].text);
     })
