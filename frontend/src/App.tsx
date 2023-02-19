@@ -1,12 +1,13 @@
-import { useEffect, useState } from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
 import './App.css';
+import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      <h3>This is the data you can find from our table:</h3>
-    </div>
+    <ChakraProvider>
+      <HomePage />
+    </ChakraProvider>
   );
 }
 
