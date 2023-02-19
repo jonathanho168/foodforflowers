@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import Community from './pages/Community';
+import UploadPage from './pages/UploadPage';
 const router = createBrowserRouter([
   {
     path: Routes.HOME_PAGE,
@@ -19,7 +20,13 @@ const router = createBrowserRouter([
     element: (
       <Community />
     )
-  }
+  },
+    {
+        path: Routes.UPLOAD_PAGE,
+        element: (
+            <UploadPage />
+        )
+    }
 ]);
 
 
