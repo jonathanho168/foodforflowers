@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Heading, Tabs, TabList, Tab, Center, VStack, Text, Button } from "@chakra-ui/react";
 import React from "react";
 import Navbar from "../components/Navbar";
 
@@ -55,19 +55,28 @@ const UploadPage: React.FC = () => {
 
     return (
         <Flex className="container" flexDirection={"column"} h="100vh">
-            Test Add Page
-            <div>
-                <h1>
-                    Upload what you eat!
-                </h1>
+            <VStack marginTop={5} spacing={3}>
+                <Heading as='h1' size='2xl' noOfLines={1}>
+                    Add your Food.
+                </Heading>
+                <Tabs variant='soft-rounded' colorScheme='green'>
+                    <TabList>
+                        <Tab>Picture</Tab>
+                        <Tab>Text</Tab>
+                    </TabList>
+                </Tabs>
+                <Text>
+                    Share what you're eating with us!
+                </Text>
                 <div>
-                    <input type="file" onChange={onFileChange} />
+                    <input type="file" onChange={onFileChange}>
+                    </input>
                     <button onClick={onFileUpload}>
                         Upload!
                     </button>
                 </div>
                 {fileData()}
-            </div>
+            </VStack>
             <nav className="navbar">
                 <Navbar />
             </nav>
