@@ -1,14 +1,27 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import './App.css';
-import Navbar from './components/Navbar';
+import * as Routes from './constants/Routes';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import HomePage from './pages/HomePage';
+const router = createBrowserRouter([
+  {
+    path: Routes.HOME_PAGE,
+    element: (
+      <HomePage />
+    ),
+  },
+]);
+
 
 function App() {
   return (
     <ChakraProvider>
-      <HomePage />
+      <RouterProvider router={router} />
     </ChakraProvider>
   );
-}
+};
 
 export default App;
