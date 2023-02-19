@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 267,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 234.59,
+        "max": 385.73
+      },
+      "standardDeviation": 192.78
+    },
+    "fat": {
+      "value": 13,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 11.5,
+        "max": 19.88
+      },
+      "standardDeviation": 10.7
+    },
+    "protein": {
+      "value": 3,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 3.31,
+        "max": 5.62
+      },
+      "standardDeviation": 2.95
+    },
+    "carbs": {
+      "value": 36,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 31.12,
+        "max": 50.47
+      },
+      "standardDeviation": 24.68
+    }
+  },
+  "category": {
+    "name": "brownies",
+    "probability": 0.5385474860335195
+  },
+  "recipes": [
+    {
+      "id": 583948,
+      "title": "Sweet & Salty Brownies: Dark Chocolate Fudge Brownies with Dulce De Leche",
+      "imageType": "jpg",
+      "url": "http://www.thenovicechefblog.com/2011/09/the-lazy-girls-guide-to-fancy-fudge-y-brownies/"
+    },
+    {
+      "id": 544010,
+      "title": "Mississippi Mud Brownies {AKA Frosted Marshmallow Brownies}",
+      "imageType": "jpg",
+      "url": "http://www.cookingclassy.com/2013/04/mississippi-mud-brownies-aka-frosted-marshmallow-brownies/"
+    },
+    {
+      "id": 1704281,
+      "title": "Grain Free Tahini Brownies (the best brownies I've ever eaten!)",
+      "imageType": "jpg",
+      "url": "https://www.ambitiouskitchen.com/grain-free-tahini-brownies-the-best-brownies-ive-ever-eaten/"
+    },
+    {
+      "id": 828647,
+      "title": "The Farm Brownies aka Bake Ahead Brownies",
+      "imageType": "jpg",
+      "url": "http://www.cookiemadness.net/2016/11/farm-brownies/"
+    },
+    {
+      "id": 888391,
+      "title": "Grain Free Tahini Brownies (the best brownies I’ve ever eaten!)",
+      "imageType": "jpg",
+      "url": "http://www.ambitiouskitchen.com/2017/05/grain-free-tahini-brownies-the-best-brownies-ive-ever-eaten/"
+    },
+    {
+      "id": 568604,
+      "title": "Fudgy Brownies {Think: Homemade Brownies Like The Boxed Mix!}",
+      "imageType": "jpg",
+      "url": "http://www.melskitchencafe.com/the-best-fudgy-brownies/"
+    },
+    {
+      "id": 260095,
+      "title": "One Pan Brownies (Triple-Chocolate Fudge Brownies)",
+      "imageType": "jpg",
+      "url": "http://www.cookiemadness.net/2008/07/one-pan-brownies/"
+    },
+    {
+      "id": 1436659,
+      "title": "Small Batch Brownies (makes 3 – 4 brownies)",
+      "imageType": "jpg",
+      "url": "https://www.cookingclassy.com/small-batch-brownies-makes-3-4-brownies/"
+    },
+    {
+      "id": 519852,
+      "title": "Better Than Brownies {Cake Mix Brownies}",
+      "imageType": "jpg",
+      "url": "http://goodenessgracious.com/2013/06/cake-mix-brownies.html"
+    }
+  ]
+}

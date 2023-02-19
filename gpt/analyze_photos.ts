@@ -3,13 +3,15 @@ const fs = require('fs');
 const axios = require('axios');
 const FormData = require('form-data');
 const path = require('path')
+require('dotenv').config();
 
 // Define constants
 const photosDir = 'photos'; // The directory where photos are stored
 const apiUrl = 'https://api.spoonacular.com/food/images/analyze'; // The API endpoint
-const apiKey = 'bf6c1c6bb92e4cfa9090c0d0a1de65c3'; // The API key
+const apiKey = process.env.SPOONACULAR_API_KEY; // The API key
 
-// Read all photos in the directory
+const outputDir = 'analyses'; // The directory where JSON files are saved
+
 fs.readdir(photosDir, (err, files) => {
     if (err) {
         console.error(err);
@@ -36,7 +38,13 @@ fs.readdir(photosDir, (err, files) => {
             axios.post(apiUrl, form, config)
                 .then(response => {
                     // Log the response data
-                    console.log(response.data);
+                    const jsonObject = response.data;
+                    // Convert it to a string with indentation for readability
+                    const jsonString = JSON.stringify(jsonObject, null, 2);
+                    // Define an output file name based on photo file name and extension .json
+                    const outputFile = path.basename(file, '.jpg') + '.json';
+                    // Write the JSON string to output file synchronously
+                    fs.writeFileSync(path.join(outputDir, outputFile), jsonString);
                 })
                 .catch(error => {
                     // Log the error message

@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 510,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 428.16,
+        "max": 564.97
+      },
+      "standardDeviation": 174.51
+    },
+    "fat": {
+      "value": 24,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 20.24,
+        "max": 28.84
+      },
+      "standardDeviation": 10.98
+    },
+    "protein": {
+      "value": 23,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 20.89,
+        "max": 30.6
+      },
+      "standardDeviation": 12.38
+    },
+    "carbs": {
+      "value": 38,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 36.23,
+        "max": 52.17
+      },
+      "standardDeviation": 20.33
+    }
+  },
+  "category": {
+    "name": "burrito",
+    "probability": 0.9964947421131696
+  },
+  "recipes": [
+    {
+      "id": 226573,
+      "title": "Burrito de Pollo (Chicken Burrito)",
+      "imageType": "jpg",
+      "url": "http://www.mycolombianrecipes.com/burrito-de-pollo-chicken-burrito"
+    },
+    {
+      "id": 247603,
+      "title": "Pineapple Dak Bulgogi Burrito (Korean Spicy Pineapple BBQ Chicken Burrito)",
+      "imageType": "jpg",
+      "url": "http://www.closetcooking.com/2010/04/pineapple-dak-bulgogi-burrito-korean.html"
+    },
+    {
+      "id": 967366,
+      "title": "Whole 30 Breakfast Burrito",
+      "imageType": "jpg",
+      "url": "https://cookingwithcurls.com/2017/01/14/whole-30-breakfast-burrito/"
+    },
+    {
+      "id": 992336,
+      "title": "Burrito Bowl",
+      "imageType": "jpeg",
+      "url": "https://www.foodnetwork.com/recipes/melissa-darabian/burrito-bowl-recipe-1925412"
+    },
+    {
+      "id": 437852,
+      "title": "Burrito Pie",
+      "imageType": "jpg",
+      "url": "http://www.tasteofhome.com/Recipes/burrito-pie"
+    },
+    {
+      "id": 368173,
+      "title": "Burrito Bake",
+      "imageType": "jpg",
+      "url": "http://www.tasteofhome.com/Recipes/burrito-bake"
+    },
+    {
+      "id": 391885,
+      "title": "Burrito Lasagna",
+      "imageType": "jpg",
+      "url": "http://www.tasteofhome.com/Recipes/burrito-lasagna"
+    },
+    {
+      "id": 579780,
+      "title": "Vegetarian Burrito",
+      "imageType": "jpg",
+      "url": "http://www.foodfanatic.com/recipes/vegetarian-burrito-recipe/"
+    },
+    {
+      "id": 1069243,
+      "title": "Breakfast Burrito",
+      "imageType": "jpg",
+      "url": "https://dinnerthendessert.com/breakfast-burrito/"
+    }
+  ]
+}

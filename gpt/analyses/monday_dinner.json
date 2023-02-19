@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 325,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 299.27,
+        "max": 414.19
+      },
+      "standardDeviation": 146.58
+    },
+    "fat": {
+      "value": 23,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 19.16,
+        "max": 28.34
+      },
+      "standardDeviation": 11.71
+    },
+    "protein": {
+      "value": 14,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 12.53,
+        "max": 18.05
+      },
+      "standardDeviation": 7.04
+    },
+    "carbs": {
+      "value": 15,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 15.3,
+        "max": 28.04
+      },
+      "standardDeviation": 16.24
+    }
+  },
+  "category": {
+    "name": "antipasto_salad",
+    "probability": 0.4668171094471228
+  },
+  "recipes": [
+    {
+      "id": 514571,
+      "title": "Couscous Antipasto Salad with Tomato Vinaigrette PLUS Antipasto Skewers",
+      "imageType": "jpg",
+      "url": "http://wearychef.com/2013/08/15/pearl-couscous-antipasto-salad/"
+    },
+    {
+      "id": 782556,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "http://www.emilybites.com/2016/06/antipasto-salad.html"
+    },
+    {
+      "id": 376037,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "http://www.tasteofhome.com/recipes/antipasto-salad"
+    },
+    {
+      "id": 1644455,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "https://everydaydishes.com/keto/antipasto-salad/"
+    },
+    {
+      "id": 1019732,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "https://www.bonappetit.com/recipe/antipasto-salad"
+    },
+    {
+      "id": 763947,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "http://www.nutritiouseats.com/antipasto-salad/"
+    },
+    {
+      "id": 1741421,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "https://www.foodiecrush.com/antipasto-salad/"
+    },
+    {
+      "id": 100994,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "http://www.food.com/recipe/antipasto-salad-32664"
+    },
+    {
+      "id": 1490155,
+      "title": "Antipasto Salad",
+      "imageType": "jpg",
+      "url": "https://www.julieseatsandtreats.com/antipasto-salad/"
+    }
+  ]
+}
