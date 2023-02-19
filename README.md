@@ -1,3 +1,5 @@
+Note that the Unity files (Garden) could not be pushed to GitHub because of size. If you are interesting in seeing them, email at fernando.cuellogarcia@yale.edu
+
 ## Inspiration
 
 Eating disorders hit really close to home. Over the years, we’ve seen for ourselves how quickly the current apps on the market are not only tedious and error-prone, but can (more concerningly) make us overfixate on some specific number, make us incredibly restrictive in our habits, and so much more…
