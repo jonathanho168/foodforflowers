@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from './pages/HomePage';
+import Community from './pages/Community';
 const router = createBrowserRouter([
   {
     path: Routes.HOME_PAGE,
@@ -13,6 +14,12 @@ const router = createBrowserRouter([
       <HomePage />
     ),
   },
+  {
+    path: Routes.COMMUNITY_PAGE,
+    element: (
+      <Community />
+    )
+  }
 ]);
 
 

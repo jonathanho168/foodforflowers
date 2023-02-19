@@ -1,0 +1,1 @@
+export const FFFGREEN = "517C3A"
