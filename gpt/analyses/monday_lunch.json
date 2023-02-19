@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 476,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 384.04,
+        "max": 523.93
+      },
+      "standardDeviation": 178.44
+    },
+    "fat": {
+      "value": 19,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 15.9,
+        "max": 22.3
+      },
+      "standardDeviation": 8.17
+    },
+    "protein": {
+      "value": 32,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 29.6,
+        "max": 38.37
+      },
+      "standardDeviation": 11.19
+    },
+    "carbs": {
+      "value": 28,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 26.07,
+        "max": 43.9
+      },
+      "standardDeviation": 22.74
+    }
+  },
+  "category": {
+    "name": "beef_stew",
+    "probability": 0.6588003933136676
+  },
+  "recipes": [
+    {
+      "id": 506493,
+      "title": "Roni’s Beef Stew, Yes, BEEF Stew",
+      "imageType": "jpg",
+      "url": "http://greenlitebites.com/2012/04/03/ronis-beef-stew-yes-beef-stew/"
+    },
+    {
+      "id": 20752,
+      "title": "Beef Stew With Turnips (beef Bourguignonne)",
+      "imageType": "jpg",
+      "url": "http://www.williams-sonoma.com/recipe/beef-stew-with-turnips-beef-bourguignonne.html"
+    },
+    {
+      "id": 519771,
+      "title": "Beef Stew",
+      "imageType": "jpg",
+      "url": "http://www.alaskafromscratch.com/2012/03/05/beef-stew/"
+    },
+    {
+      "id": 389135,
+      "title": "Beef Stew for Two",
+      "imageType": "jpg",
+      "url": "http://www.tasteofhome.com/Recipes/beef-stew-for-two"
+    },
+    {
+      "id": 677532,
+      "title": "Beef Stew",
+      "imageType": "jpg",
+      "url": "http://natashaskitchen.com/2015/04/20/beef-stew-recipe/"
+    },
+    {
+      "id": 564923,
+      "title": "Beef Stew",
+      "imageType": "jpg",
+      "url": "http://www.noobcook.com/beef-stew/2/"
+    },
+    {
+      "id": 12129,
+      "title": "Beef Stew",
+      "imageType": "jpg",
+      "url": "http://www.mybakingaddiction.com/holiday-recipe-exchange-beef-stew/"
+    },
+    {
+      "id": 208665,
+      "title": "Beef Stew",
+      "imageType": "jpg",
+      "url": "http://www.myrecipes.com/m/recipe/beef-stew-50400000126014/"
+    },
+    {
+      "id": 12436,
+      "title": "Beef Stew",
+      "imageType": "jpg",
+      "url": "http://thisweekfordinner.com/2007/04/07/featured-recipe-beef-stew/"
+    }
+  ]
+}

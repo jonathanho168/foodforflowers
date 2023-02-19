@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 483,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 355.33,
+        "max": 531.18
+      },
+      "standardDeviation": 224.3
+    },
+    "fat": {
+      "value": 25,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 19.62,
+        "max": 32.99
+      },
+      "standardDeviation": 17.05
+    },
+    "protein": {
+      "value": 7,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 5.33,
+        "max": 8.66
+      },
+      "standardDeviation": 4.26
+    },
+    "carbs": {
+      "value": 46,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 37.53,
+        "max": 57.58
+      },
+      "standardDeviation": 25.57
+    }
+  },
+  "category": {
+    "name": "ice_cream",
+    "probability": 0.43638850889192893
+  },
+  "recipes": [
+    {
+      "id": 814136,
+      "title": "Roasted Strawberry Coconut Milk Ice Cream (Vegan) + Tips for Making Your Homemade Ice Cream Soft",
+      "imageType": "jpg",
+      "url": "http://www.theroastedroot.net/roasted-strawberry-coconut-milk-ice-cream-vegan/"
+    },
+    {
+      "id": 608542,
+      "title": "Pink Lemonade Ice Cream Pie and a Huge Ice Cream Making Prize Pack Giveaway",
+      "imageType": "jpg",
+      "url": "http://www.cravingsofalunatic.com/2014/08/pink-lemonade-ice-cream-pie.html"
+    },
+    {
+      "id": 520118,
+      "title": "No-Ice-Cream-Maker Salted Caramel, Bourbon, Nutter Butter and Chocolate Chunk Ice Cream",
+      "imageType": "jpg",
+      "url": "http://www.averiecooks.com/2013/07/no-ice-cream-maker-salted-caramel-bourbon-nutter-butter-and-chocolate-chunk-ice-cream.html"
+    },
+    {
+      "id": 497575,
+      "title": "Patriotic Ice Cream Sandwiches, with Red Velvet Shortbread Stars & Cheesecake Ice Cream",
+      "imageType": "jpg",
+      "url": "http://www.afarmgirlsdabbles.com/2012/06/06/patriotic-ice-cream-sandwiches-red-velvet-shortbread-cookie-stars-cheesecake-ice-cream-recipe/"
+    },
+    {
+      "id": 611471,
+      "title": "Swiss Almond Ice Cream from Dairy-Free Ice Cream | Interview with the Author and Giveaway",
+      "imageType": "jpg",
+      "url": "http://gourmandeinthekitchen.com/2014/dairy-free-swiss-almond-ice-cream/"
+    },
+    {
+      "id": 507295,
+      "title": "Two-Ingredient Ice Cream (Reese's Mini Peanut Butter Cup Ice Cream)",
+      "imageType": "jpg",
+      "url": "http://www.browneyedbaker.com/2011/08/10/two-ingredient-ice-cream-reeses-mini-peanut-butter-cup-ice-cream/"
+    },
+    {
+      "id": 605294,
+      "title": "Vanilla Sugar Cookie Dough Ice Cream and Ice Cream Maker Giveaway",
+      "imageType": "jpg",
+      "url": "http://www.crunchycreamysweet.com/2014/07/12/vanilla-sugar-cookie-dough-ice-cream-recipe/"
+    },
+    {
+      "id": 520079,
+      "title": "No-Ice-Cream-Maker Funfetti Cake Batter Golden Oreo Ice Cream",
+      "imageType": "jpg",
+      "url": "http://www.averiecooks.com/2013/06/no-ice-cream-maker-funfetti-cake-batter-golden-oreo-ice-cream.html"
+    },
+    {
+      "id": 58729,
+      "title": "Mango Chili Ice Cream Best Lick! 2008 Ice Cream Contest Entr",
+      "imageType": "jpg",
+      "url": "http://www.thekitchn.com/-best-lick-2008-ice-cream-cont-11-61069"
+    }
+  ]
+}

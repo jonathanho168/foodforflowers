@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 270,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 201.01,
+        "max": 323.1
+      },
+      "standardDeviation": 155.74
+    },
+    "fat": {
+      "value": 10,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 7.72,
+        "max": 16.72
+      },
+      "standardDeviation": 11.48
+    },
+    "protein": {
+      "value": 9,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 7,
+        "max": 12.86
+      },
+      "standardDeviation": 7.48
+    },
+    "carbs": {
+      "value": 25,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 21.43,
+        "max": 36.67
+      },
+      "standardDeviation": 19.44
+    }
+  },
+  "category": {
+    "name": "sushi",
+    "probability": 0.6613076098606644
+  },
+  "recipes": [
+    {
+      "id": 540672,
+      "title": "Chirashi Sushi Cake and Temari Sushi",
+      "imageType": "jpg",
+      "url": "http://www.justonecookbook.com/recipes/chirashi-sushi-cake-and-temari-sushi-and-giveaway-winners/"
+    },
+    {
+      "id": 509386,
+      "title": "Deconstructed Sushi (Chirashi Sushi)",
+      "imageType": "jpg",
+      "url": "http://www.thevintagemixer.com/2012/04/deconstructed-sushi-bowl-recipe/"
+    },
+    {
+      "id": 405173,
+      "title": "Kids' Sushi",
+      "imageType": "jpg",
+      "url": "http://www.tasteofhome.com/recipes/kids--sushi"
+    },
+    {
+      "id": 298233,
+      "title": "Sushi Pinwheels",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/giada-de-laurentiis/sushi-pinwheels.html"
+    },
+    {
+      "id": 291437,
+      "title": "Five-Minute Sushi",
+      "imageType": "jpg",
+      "url": "http://www.myrecipes.com/recipe/five-minute-sushi-10000001862990/"
+    },
+    {
+      "id": 319398,
+      "title": "Vegetable Sushi",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/masaharu-morimoto/vegetable-sushi-recipe.html"
+    },
+    {
+      "id": 1091484,
+      "title": "Sweet sushi",
+      "imageType": "jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/sweet-sushi"
+    },
+    {
+      "id": 219916,
+      "title": "Simple sushi",
+      "imageType": "jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/simple-sushi"
+    },
+    {
+      "id": 591370,
+      "title": "Sushi Bowls",
+      "imageType": "jpg",
+      "url": "http://www.budgetbytes.com/2010/03/sushi-bowls/"
+    }
+  ]
+}

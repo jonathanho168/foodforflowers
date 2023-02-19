@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 363,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 310.44,
+        "max": 456.98
+      },
+      "standardDeviation": 186.91
+    },
+    "fat": {
+      "value": 8,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 8.1,
+        "max": 13.59
+      },
+      "standardDeviation": 7.01
+    },
+    "protein": {
+      "value": 18,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 15.42,
+        "max": 27.51
+      },
+      "standardDeviation": 15.41
+    },
+    "carbs": {
+      "value": 49,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 41.73,
+        "max": 61.84
+      },
+      "standardDeviation": 25.66
+    }
+  },
+  "category": {
+    "name": "chow_mein",
+    "probability": 0.564127817903261
+  },
+  "recipes": [
+    {
+      "id": 478206,
+      "title": "How to cook yaki-chow, a cross between yakisoba and chow mein",
+      "imageType": "jpg",
+      "url": "http://feastasia.casaveneracion.com/how-to-cook-yaki-chow-a-cross-between-yakisoba-and-chow-mein/"
+    },
+    {
+      "id": 522418,
+      "title": "Pancit canton (a.k.a. lo mein or chow mein)",
+      "imageType": "jpg",
+      "url": "http://casaveneracion.com/pancit-canton/"
+    },
+    {
+      "id": 675995,
+      "title": "Chow Mein",
+      "imageType": "jpg",
+      "url": "http://www.curiouscuisiniere.com/chow-mein/"
+    },
+    {
+      "id": 738588,
+      "title": "Chow Mein",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/ree-drummond/chow-mein.html"
+    },
+    {
+      "id": 970401,
+      "title": "Chow Mein",
+      "imageType": "jpg",
+      "url": "https://www.jessicagavin.com/chinese-chow-mein/"
+    },
+    {
+      "id": 93320,
+      "title": "Chow Mein",
+      "imageType": "jpg",
+      "url": "http://www.food.com/recipe/chow-mein-309337"
+    },
+    {
+      "id": 1090365,
+      "title": "Chow mein",
+      "imageType": "jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/chow-mein"
+    },
+    {
+      "id": 1783337,
+      "title": "Chow Mein",
+      "imageType": "jpg",
+      "url": "https://amandascookin.com/chow-mein/"
+    },
+    {
+      "id": 1082205,
+      "title": "Chow Mein",
+      "imageType": "jpg",
+      "url": "https://www.jocooks.com/recipes/chow-mein/"
+    }
+  ]
+}

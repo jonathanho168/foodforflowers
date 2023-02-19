@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 315,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 313.2,
+        "max": 549.65
+      },
+      "standardDeviation": 301.6
+    },
+    "fat": {
+      "value": 12,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 12.98,
+        "max": 33.08
+      },
+      "standardDeviation": 25.64
+    },
+    "protein": {
+      "value": 10,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 11.5,
+        "max": 24.07
+      },
+      "standardDeviation": 16.05
+    },
+    "carbs": {
+      "value": 27,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 25.94,
+        "max": 42.47
+      },
+      "standardDeviation": 21.08
+    }
+  },
+  "category": {
+    "name": "beer",
+    "probability": 0.792162276975361
+  },
+  "recipes": [
+    {
+      "id": 573885,
+      "title": "Beer Batter Orange Crepes with Beer Caramel Sauce",
+      "imageType": "jpg",
+      "url": "http://themessybaker.com/2014/01/30/beer-batter-orange-crepes/"
+    },
+    {
+      "id": 362432,
+      "title": "Smoked Cheese and Beer Fondue with Beer-Simmered Bratwurst, Grilled Bacon, Mushrooms and Rye Bread",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/bobby-flay/smoked-cheese-and-beer-fondue-with-beer-simmered-bratwurst-grilled-bacon-mushrooms-and-rye-bread-recipe.html"
+    },
+    {
+      "id": 328310,
+      "title": "Beer and Sauerkraut Fudge Cupcakes, Beer Frosting",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/beer-and-sauerkraut-fudge-cupcakes-beer-frosting-recipe.html"
+    },
+    {
+      "id": 208066,
+      "title": "Beer Profiteroles with Chocolate-Beer Sauce",
+      "imageType": "jpg",
+      "url": "http://www.seriouseats.com/recipes/2010/06/beer-profiteroles-with-chocolate-beer-sauce-recipe.html"
+    },
+    {
+      "id": 483873,
+      "title": "Beer Crepes with Beer Caramelized Apples",
+      "imageType": "jpg",
+      "url": "http://thebeeroness.com/2014/05/12/beer-crepes-beer-caramelized-apples/"
+    },
+    {
+      "id": 176401,
+      "title": "Beer Brownie Cupcakes with Beer Buttercream",
+      "imageType": "jpg",
+      "url": "http://www.BettyCrocker.com/recipes/beer-brownie-cupcakes-with-beer-buttercream/79adf24f-8aaa-4061-bccc-b01a3b344900"
+    },
+    {
+      "id": 743696,
+      "title": "Beer-Brined Beer-Can Chicken",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/food-network-kitchens/beer-brined-beer-can-chicken.html"
+    },
+    {
+      "id": 529935,
+      "title": "Please Your Beer Lover With Beer Bread",
+      "imageType": "jpg",
+      "url": "http://motherrimmy.com/please-your-beer-lover-with-beer-bread/"
+    },
+    {
+      "id": 669534,
+      "title": "Beer Brats with Beer Queso",
+      "imageType": "jpg",
+      "url": "http://foxeslovelemons.com/beer-brats-with-beer-queso/"
+    }
+  ]
+}

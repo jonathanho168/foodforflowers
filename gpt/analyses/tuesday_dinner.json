@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 25,
+    "calories": {
+      "value": 171,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 144.79,
+        "max": 283.07
+      },
+      "standardDeviation": 176.38
+    },
+    "fat": {
+      "value": 10,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 8.4,
+        "max": 19.67
+      },
+      "standardDeviation": 14.37
+    },
+    "protein": {
+      "value": 2,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 3.85,
+        "max": 13.08
+      },
+      "standardDeviation": 11.77
+    },
+    "carbs": {
+      "value": 14,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 13.23,
+        "max": 20.97
+      },
+      "standardDeviation": 9.87
+    }
+  },
+  "category": {
+    "name": "coleslaw",
+    "probability": 0.9490200060932262
+  },
+  "recipes": [
+    {
+      "id": 38420,
+      "title": "Coleslaw Recipes (best Winter Veg Coleslaw)",
+      "imageType": "jpg",
+      "url": "http://www.jamieoliver.com/recipes/vegetarian-recipes/the-best-winter-veg-coleslaw"
+    },
+    {
+      "id": 94514,
+      "title": "Kfc Coleslaw Copycat Coleslaw",
+      "imageType": "jpg",
+      "url": "http://www.food.com/recipe/kfc-coleslaw-copycat-coleslaw-156331"
+    },
+    {
+      "id": 350148,
+      "title": "Coleslaw",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/alton-brown/coleslaw-recipe.html"
+    },
+    {
+      "id": 1086692,
+      "title": "Coleslaw",
+      "imageType": "jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/2483635/coleslaw"
+    },
+    {
+      "id": 520731,
+      "title": "Coleslaw",
+      "imageType": "jpg",
+      "url": "http://casaveneracion.com/coleslaw-macaroni-cheese-and-bacon-salad/"
+    },
+    {
+      "id": 512398,
+      "title": "The BEST Coleslaw ever",
+      "imageType": "jpg",
+      "url": "http://www.heatherlikesfood.com/the-best-coleslaw-ever/"
+    },
+    {
+      "id": 92788,
+      "title": "Coleslaw",
+      "imageType": "jpg",
+      "url": "http://www.food.com/recipe/coleslaw-105975"
+    },
+    {
+      "id": 485416,
+      "title": "Coleslaw",
+      "imageType": "jpg",
+      "url": "http://www.olgasflavorfactory.com/ontheside/salads/coleslaw/"
+    },
+    {
+      "id": 476816,
+      "title": "Coleslaw",
+      "imageType": "jpg",
+      "url": "http://addapinch.com/cooking/2014/03/15/coleslaw-recipe/"
+    }
+  ]
+}

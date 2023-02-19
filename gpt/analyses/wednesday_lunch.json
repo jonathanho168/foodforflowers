@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "nutrition": {
+    "recipesUsed": 11,
+    "calories": {
+      "value": 416,
+      "unit": "calories",
+      "confidenceRange95Percent": {
+        "min": 220.57,
+        "max": 685.4
+      },
+      "standardDeviation": 393.28
+    },
+    "fat": {
+      "value": 18,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 12.28,
+        "max": 42.07
+      },
+      "standardDeviation": 25.21
+    },
+    "protein": {
+      "value": 9,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 3.72,
+        "max": 35.64
+      },
+      "standardDeviation": 27
+    },
+    "carbs": {
+      "value": 24,
+      "unit": "g",
+      "confidenceRange95Percent": {
+        "min": 15.9,
+        "max": 43.83
+      },
+      "standardDeviation": 23.63
+    }
+  },
+  "category": {
+    "name": "agnolotti",
+    "probability": 0.547722815428198
+  },
+  "recipes": [
+    {
+      "id": 493788,
+      "title": "Agnolotti di Zucca",
+      "imageType": "jpg",
+      "url": "http://www.foodrepublic.com/2011/10/18/agnolotti-di-zucca-recipe"
+    },
+    {
+      "id": 579845,
+      "title": "Chestnut Agnolotti",
+      "imageType": "jpg",
+      "url": "http://www.foodfanatic.com/recipes/chestnut-agnolotti-recipe/"
+    },
+    {
+      "id": 732493,
+      "title": "Agnolotti Bolognese",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/agnolotti-bolognese.html"
+    },
+    {
+      "id": 199388,
+      "title": "Purslane Agnolotti",
+      "imageType": "jpg",
+      "url": "http://www.seriouseats.com/recipes/2010/08/purslane-agnolotti-recipe.html"
+    },
+    {
+      "id": 24072,
+      "title": "Pumpkin Agnolotti",
+      "imageType": "jpg",
+      "url": "http://www.bonappetit.com/recipes/2011/11/pumpkin-agnolotti"
+    },
+    {
+      "id": 581564,
+      "title": "Chestnut Agnolotti: A Serious Showstopper",
+      "imageType": "jpg",
+      "url": "http://www.foodfanatic.com/2013/03/chestnut-agnolotti-a-serious-showstopper/"
+    },
+    {
+      "id": 631807,
+      "title": "Toasted\" Agnolotti (or Ravioli)",
+      "imageType": "jpg",
+      "url": "https://spoonacular.com/toasted-agnolotti-or-ravioli-631807"
+    },
+    {
+      "id": 750005,
+      "title": "Lobster and Asparagus Agnolotti",
+      "imageType": "jpeg",
+      "url": "http://www.foodnetwork.com/recipes/lobster-and-asparagus-agnolotti-recipe.html"
+    },
+    {
+      "id": 478459,
+      "title": "Homemade Agnolotti Pasta",
+      "imageType": "jpg",
+      "url": "http://www.bloggingoverthyme.com/2014/01/17/homemade-agnolotti-pasta/"
+    }
+  ]
+}
