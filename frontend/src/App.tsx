@@ -21,12 +21,12 @@ const router = createBrowserRouter([
       <Community />
     )
   },
-    {
-        path: Routes.UPLOAD_PAGE,
-        element: (
-            <UploadPage />
-        )
-    }
+  {
+    path: Routes.UPLOAD_PAGE,
+    element: (
+      <UploadPage />
+    )
+  }
 ]);
 
 
