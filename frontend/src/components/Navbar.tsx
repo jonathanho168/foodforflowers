@@ -15,10 +15,13 @@ import {
     useDisclosure,
     useColorModeValue,
     Stack,
+    Icon
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
-const Links = ['Dashboard', 'Projects', 'Team'];
 
 const NavLink = ({ children }: { children: ReactNode }) => (
     <Link
@@ -43,15 +46,9 @@ export default function Navbar() {
                         as={'nav'}
                         spacing={4}
                         display={'flex'}>
-                        <NavLink key={'Home'}>{'Home'}</NavLink>
-                        <Button
-                            variant={'solid'}
-                            colorScheme={'teal'}
-                            size={'sm'}
-                            leftIcon={<AddIcon />}>
-                            Enter a Meal
-                        </Button>
-                        <NavLink key={'Profile'}>{'Profile'}</NavLink>
+                        <NavLink key={'Garden'}><Flex flexDirection={'column'} alignItems={'center'}>< Icon as={LocalFloristIcon} />Garden</Flex></NavLink>
+                        <NavLink key={'Upload a Meal'}><Flex flexDirection={'column'} alignItems={'center'}><Icon as={AddCircleIcon} /> Upload a Meal </Flex></NavLink>
+                        <NavLink key={'Profile'}><Flex flexDirection={'column'} alignItems={'center'}>< Icon as={AccountCircleIcon} /> Profile </Flex></NavLink>
                     </HStack>
                 </Flex>
             </Flex>
